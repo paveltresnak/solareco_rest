@@ -36,7 +36,7 @@ SENSORS = {
     "923": {
         "name": "Temperature",
         "key": "temperature",
-        "unit": "°C",
+        "unit": "\u00b0C",
         "device_class": "temperature",
         "state_class": "measurement",
         "icon": "mdi:thermometer",
@@ -51,4 +51,5 @@ SENSORS = {
         "icon": "mdi:solar-power",
         "transform": lambda x: float(x),
     },
+
 }
