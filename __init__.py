@@ -10,6 +10,9 @@ _LOGGER = logging.getLogger(__name__)
 
 PLATFORMS = ["sensor"]
 
+# Ensure config_flow is imported
+from . import config_flow  # noqa: F401
+
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     """Set up SolarEco REST from a config entry."""
