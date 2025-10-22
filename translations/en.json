@@ -5,7 +5,7 @@
                 "title": "SolarEco REST Setup",
                 "description": "Enter your device ID from emon.solareco.cz",
                 "data": {
-                    "device_id": "Device ID (e.g. 289c6e30710d)",
+                    "device_id": "Device ID (e.g. 289xxx30710d)",
                     "scan_interval": "Update interval (seconds)"
                 }
             }
@@ -38,4 +38,5 @@
             }
         }
     }
+
 }
