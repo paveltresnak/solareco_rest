@@ -46,14 +46,14 @@ async def validate_input(hass: HomeAssistant, data: dict[str, Any]) -> dict[str,
                     _LOGGER.warning(f"Expected feed IDs not found. Got: {feed_ids}")
                 
     except aiohttp.ClientError as err:
-        raise CannotConnect(f"Connection error: {err}")
+        raise CannotConnect(f"Connection error: {err}") from err
     except Exception as err:
-        raise CannotConnect(f"Unknown error: {err}")
+        raise CannotConnect(f"Unknown error: {err}") from err
 
     return {"title": f"SolarEco {device_id[:8]}"}
 
 
-class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
+class SolarEcoRestConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     """Handle a config flow for SolarEco REST."""
 
     VERSION = 1
