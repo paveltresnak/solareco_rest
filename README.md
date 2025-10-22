@@ -4,10 +4,10 @@ Umožňuje načítat provozní data přes rozhraní SolarEco REST API a zobrazov
 
 [Repozitář na GitHub](https://github.com/paveltresnak/solareco_rest)
 
-O projektu
+## O projektu
 Tato integrace vznikla ve spolupráci s Claude.AI, která vytvořila počáteční implementaci modulu.
 Následně byla testována a rozšířena o požadavky zadavatele (měření výkonu, teploty, relé atd.).
-Cílem je snadné a spolehlivé připojení regulátoru OPL 9AC k Home Assistantu přes lokální REST API nebo LAN modul SolarEco.
+Cílem je snadné a spolehlivé připojení regulátoru OPL 9AC k Home Assistantu přes webové rozhraní https://emon.solareco.cz/.
 
 ## Podporované funkce
 Integrace aktuálně podporuje čtení provozních hodnot z vašeho regulátoru:
