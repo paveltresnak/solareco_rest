@@ -2,7 +2,7 @@
 Integrace pro připojení a monitorování solárního regulátoru SolarEco OPL 9AC v systému Home Assistant.
 Umožňuje načítat provozní data přes rozhraní SolarEco REST API a zobrazovat je jako senzory v Home Assistantu.
 
-[Repozitář na GitHubu](https://github.com/paveltresnak/solareco_rest)
+[Repozitář na GitHub](https://github.com/paveltresnak/solareco_rest)
 
 O projektu
 Tato integrace vznikla ve spolupráci s Claude.AI, která vytvořila počáteční implementaci modulu.
@@ -18,9 +18,9 @@ Integrace aktuálně podporuje čtení provozních hodnot z vašeho regulátoru:
 * Teplota chladiče (Cooler Temperature)
 
 Autoři a přispěvatelé
-Claude.AI – počáteční návrh integrace
-Pavel Třešňák – testování, zpětná vazba, vylepšení funkcí
+* Claude.AI – počáteční návrh integrace
+* Pavel Třešňák – testování, zpětná vazba, vylepšení funkcí
 
 Licence
-Projekt je dostupný pod licencí MIT.
-Použití na vlastní riziko, bez jakýchkoliv záruk.
+* Projekt je dostupný pod licencí MIT.
+* Použití na vlastní riziko, bez jakýchkoliv záruk.
