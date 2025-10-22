@@ -2,10 +2,11 @@
     "domain": "solareco_rest",
     "name": "SolarEco REST Monitor",
     "version": "1.0.0",
-    "documentation": "https://github.com/yourusername/solareco_rest",
+    "documentation": "https://github.com/paveltresnak/solareco_rest",
     "dependencies": [],
     "requirements": [],
     "codeowners": [],
     "config_flow": true,
     "iot_class": "cloud_polling"
+
 }
