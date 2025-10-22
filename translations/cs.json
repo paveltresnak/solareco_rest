@@ -1,0 +1,41 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Nastavení SolarEco REST",
+                "description": "Zadejte ID vašeho zařízení ze stránky emon.solareco.cz",
+                "data": {
+                    "device_id": "ID zařízení (např. 289c6e30710d)",
+                    "scan_interval": "Interval aktualizace (sekundy)"
+                }
+            }
+        },
+        "error": {
+            "cannot_connect": "Nelze se připojit k SolarEco API",
+            "invalid_device_id": "Neplatné ID zařízení",
+            "unknown": "Neočekávaná chyba"
+        },
+        "abort": {
+            "already_configured": "Toto zařízení je již nakonfigurováno"
+        }
+    },
+    "entity": {
+        "sensor": {
+            "voltage": {
+                "name": "Napětí"
+            },
+            "current": {
+                "name": "Proud"
+            },
+            "power": {
+                "name": "Výkon"
+            },
+            "temperature": {
+                "name": "Teplota"
+            },
+            "daily_production": {
+                "name": "Denní výroba"
+            }
+        }
+    }
+}

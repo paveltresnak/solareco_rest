@@ -1,0 +1,41 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "SolarEco REST Setup",
+                "description": "Enter your device ID from emon.solareco.cz",
+                "data": {
+                    "device_id": "Device ID (e.g. 289c6e30710d)",
+                    "scan_interval": "Update interval (seconds)"
+                }
+            }
+        },
+        "error": {
+            "cannot_connect": "Cannot connect to SolarEco API",
+            "invalid_device_id": "Invalid device ID",
+            "unknown": "Unexpected error"
+        },
+        "abort": {
+            "already_configured": "This device is already configured"
+        }
+    },
+    "entity": {
+        "sensor": {
+            "voltage": {
+                "name": "Voltage"
+            },
+            "current": {
+                "name": "Current"
+            },
+            "power": {
+                "name": "Power"
+            },
+            "temperature": {
+                "name": "Temperature"
+            },
+            "daily_production": {
+                "name": "Daily Production"
+            }
+        }
+    }
+}
