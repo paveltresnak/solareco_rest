@@ -5,7 +5,7 @@
                 "title": "Nastavení SolarEco REST",
                 "description": "Zadejte ID vašeho zařízení ze stránky emon.solareco.cz",
                 "data": {
-                    "device_id": "ID zařízení (např. 289c6e30710d)",
+                    "device_id": "ID zařízení (např. 289xxx30710d)",
                     "scan_interval": "Interval aktualizace (sekundy)"
                 }
             }
@@ -38,4 +38,5 @@
             }
         }
     }
+
 }
